@@ -32,17 +32,17 @@
     },
     {
       "elapsed_seconds": 0.0,
-      "gpu_hours": 0.01638888888888889,
-      "gpu_seconds": 0.0,
+      "gpu_hours": 0.02277777777777778,
+      "gpu_seconds": 23.0,
       "id": "attention-boundary-001",
-      "outcome": "queued or running",
+      "outcome": "diagnostic completed; not qualification",
       "stage": "diagnose",
       "summary": "Readiness check \u2014 not a promotion",
       "tokens_s": null
     },
     {
       "elapsed_seconds": 0.0,
-      "gpu_hours": 0.022222222222222223,
+      "gpu_hours": 0.02861111111111111,
       "gpu_seconds": 21.0,
       "id": "funnel-001",
       "outcome": "passed",
@@ -52,7 +52,7 @@
     },
     {
       "elapsed_seconds": 0.0,
-      "gpu_hours": 0.028055555555555556,
+      "gpu_hours": 0.034444444444444444,
       "gpu_seconds": 21.0,
       "id": "funnel-002",
       "outcome": "passed",
@@ -62,7 +62,7 @@
     },
     {
       "elapsed_seconds": 0.0,
-      "gpu_hours": 0.034444444444444444,
+      "gpu_hours": 0.04083333333333333,
       "gpu_seconds": 23.0,
       "id": "numerics-001",
       "outcome": "failed",
@@ -72,7 +72,7 @@
     },
     {
       "elapsed_seconds": 0.0,
-      "gpu_hours": 0.04527777777777778,
+      "gpu_hours": 0.051666666666666666,
       "gpu_seconds": 39.0,
       "id": "numerics-002",
       "outcome": "diagnostic completed; not qualification",
@@ -82,7 +82,7 @@
     },
     {
       "elapsed_seconds": 0.0,
-      "gpu_hours": 0.05472222222222222,
+      "gpu_hours": 0.06111111111111111,
       "gpu_seconds": 34.0,
       "id": "numerics-003",
       "outcome": "diagnostic completed; not qualification",
@@ -92,7 +92,7 @@
     },
     {
       "elapsed_seconds": 0.0,
-      "gpu_hours": 0.11194444444444444,
+      "gpu_hours": 0.11833333333333333,
       "gpu_seconds": 206.0,
       "id": "numerics-long-001",
       "outcome": "diagnostic completed; not qualification",
@@ -102,7 +102,7 @@
     },
     {
       "elapsed_seconds": 0.0,
-      "gpu_hours": 0.11805555555555555,
+      "gpu_hours": 0.12444444444444444,
       "gpu_seconds": 22.0,
       "id": "numerics-trace-001",
       "outcome": "diagnostic completed; not qualification",
@@ -112,7 +112,17 @@
     },
     {
       "elapsed_seconds": 0.0,
-      "gpu_hours": 0.14555555555555555,
+      "gpu_hours": 0.13361111111111112,
+      "gpu_seconds": 33.0,
+      "id": "precise-attention-001",
+      "outcome": "diagnostic completed; not qualification",
+      "stage": "diagnose",
+      "summary": "Readiness check \u2014 not a promotion",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 0.0,
+      "gpu_hours": 0.16111111111111112,
       "gpu_seconds": 99.0,
       "id": "primary-001",
       "outcome": "passed",
@@ -122,17 +132,17 @@
     },
     {
       "elapsed_seconds": 0.0,
-      "gpu_hours": 0.14555555555555555,
-      "gpu_seconds": 0.0,
+      "gpu_hours": 0.16833333333333333,
+      "gpu_seconds": 26.0,
       "id": "primary-witness-001",
-      "outcome": "queued or running",
+      "outcome": "failed",
       "stage": "phase",
       "summary": "Readiness check \u2014 not a promotion",
       "tokens_s": null
     },
     {
       "elapsed_seconds": 0.0,
-      "gpu_hours": 0.15222222222222223,
+      "gpu_hours": 0.175,
       "gpu_seconds": 24.0,
       "id": "validate-001",
       "outcome": "failed",
@@ -142,7 +152,7 @@
     },
     {
       "elapsed_seconds": 0.0,
-      "gpu_hours": 0.16833333333333333,
+      "gpu_hours": 0.19111111111111112,
       "gpu_seconds": 58.0,
       "id": "verify-001",
       "outcome": "failed",
@@ -152,7 +162,7 @@
     },
     {
       "elapsed_seconds": 0.0,
-      "gpu_hours": 0.1827777777777778,
+      "gpu_hours": 0.20555555555555555,
       "gpu_seconds": 52.0,
       "id": "verify-002",
       "outcome": "failed",
@@ -162,7 +172,7 @@
     },
     {
       "elapsed_seconds": 0.0,
-      "gpu_hours": 0.1988888888888889,
+      "gpu_hours": 0.22166666666666668,
       "gpu_seconds": 58.0,
       "id": "verify-003",
       "outcome": "failed",
@@ -172,7 +182,7 @@
     },
     {
       "elapsed_seconds": 0.0,
-      "gpu_hours": 0.21805555555555556,
+      "gpu_hours": 0.24083333333333334,
       "gpu_seconds": 69.0,
       "id": "verify-004",
       "outcome": "passed",
@@ -182,7 +192,7 @@
     },
     {
       "elapsed_seconds": 0.0,
-      "gpu_hours": 0.22333333333333333,
+      "gpu_hours": 0.2461111111111111,
       "gpu_seconds": 19.0,
       "id": "verify-005",
       "outcome": "passed",
@@ -192,7 +202,7 @@
     },
     {
       "elapsed_seconds": 0.0,
-      "gpu_hours": 0.2338888888888889,
+      "gpu_hours": 0.25666666666666665,
       "gpu_seconds": 38.0,
       "id": "witness-controls-001",
       "outcome": "diagnostic completed; not qualification",
@@ -204,8 +214,8 @@
   "baseline_note": "Dense calibration pending. Old GPT-2 speedups are not imported.",
   "campaign": "Llama-G8 readiness",
   "contract": "16 layers \u00b7 width2048 \u00b7 32Q/8KV \u00b7 eight triangular profiles \u00b7 BF16 + FP32 cumulative logits \u00b7 u\u00b2 routing with predictions at every reached stage \u00b7 B2048/P64/burn896/window32",
-  "gpu_hours": 0.2338888888888889,
+  "gpu_hours": 0.25666666666666665,
   "selected": [],
   "status": "Readiness blocked on full-model BF16 numerical qualification. Kernel checks and small-model controls pass; full FP32 diagnostics pass but are not the campaign precision. No long campaign or qualified incumbent.",
-  "updated_at": "2026-09-12T20:44:33+00:00"
+  "updated_at": "2026-09-12T21:02:59+00:00"
 }

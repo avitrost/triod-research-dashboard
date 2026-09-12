@@ -2,20 +2,21 @@ id,summary,stage,outcome,tokens_s,gpu_seconds,gpu_hours,elapsed_seconds
 assets-001,Readiness check — not a promotion,assets,failed,,30.0,0.008333333333333333,0.0
 assets-002,Readiness check — not a promotion,assets,failed,,8.0,0.010555555555555556,0.0
 assets-003,Readiness check — not a promotion,assets,passed,,21.0,0.01638888888888889,0.0
-attention-boundary-001,Readiness check — not a promotion,diagnose,queued or running,,0.0,0.01638888888888889,0.0
-funnel-001,Readiness check — not a promotion,screen,passed,,21.0,0.022222222222222223,0.0
-funnel-002,Readiness check — not a promotion,screen,passed,,21.0,0.028055555555555556,0.0
-numerics-001,Readiness check — not a promotion,diagnose,failed,,23.0,0.034444444444444444,0.0
-numerics-002,Readiness check — not a promotion,diagnose,diagnostic completed; not qualification,,39.0,0.04527777777777778,0.0
-numerics-003,Readiness check — not a promotion,diagnose,diagnostic completed; not qualification,,34.0,0.05472222222222222,0.0
-numerics-long-001,Readiness check — not a promotion,diagnose,diagnostic completed; not qualification,,206.0,0.11194444444444444,0.0
-numerics-trace-001,Readiness check — not a promotion,diagnose,diagnostic completed; not qualification,,22.0,0.11805555555555555,0.0
-primary-001,Readiness check — not a promotion,phase,passed,,99.0,0.14555555555555555,0.0
-primary-witness-001,Readiness check — not a promotion,phase,queued or running,,0.0,0.14555555555555555,0.0
-validate-001,Readiness check — not a promotion,validate,failed,,24.0,0.15222222222222223,0.0
-verify-001,Readiness check — not a promotion,verify,failed,,58.0,0.16833333333333333,0.0
-verify-002,Readiness check — not a promotion,verify,failed,,52.0,0.1827777777777778,0.0
-verify-003,Readiness check — not a promotion,verify,failed,,58.0,0.1988888888888889,0.0
-verify-004,Readiness check — not a promotion,verify,passed,,69.0,0.21805555555555556,0.0
-verify-005,Readiness check — not a promotion,verify,passed,,19.0,0.22333333333333333,0.0
-witness-controls-001,Readiness check — not a promotion,diagnose,diagnostic completed; not qualification,,38.0,0.2338888888888889,0.0
+attention-boundary-001,Readiness check — not a promotion,diagnose,diagnostic completed; not qualification,,23.0,0.02277777777777778,0.0
+funnel-001,Readiness check — not a promotion,screen,passed,,21.0,0.02861111111111111,0.0
+funnel-002,Readiness check — not a promotion,screen,passed,,21.0,0.034444444444444444,0.0
+numerics-001,Readiness check — not a promotion,diagnose,failed,,23.0,0.04083333333333333,0.0
+numerics-002,Readiness check — not a promotion,diagnose,diagnostic completed; not qualification,,39.0,0.051666666666666666,0.0
+numerics-003,Readiness check — not a promotion,diagnose,diagnostic completed; not qualification,,34.0,0.06111111111111111,0.0
+numerics-long-001,Readiness check — not a promotion,diagnose,diagnostic completed; not qualification,,206.0,0.11833333333333333,0.0
+numerics-trace-001,Readiness check — not a promotion,diagnose,diagnostic completed; not qualification,,22.0,0.12444444444444444,0.0
+precise-attention-001,Readiness check — not a promotion,diagnose,diagnostic completed; not qualification,,33.0,0.13361111111111112,0.0
+primary-001,Readiness check — not a promotion,phase,passed,,99.0,0.16111111111111112,0.0
+primary-witness-001,Readiness check — not a promotion,phase,failed,,26.0,0.16833333333333333,0.0
+validate-001,Readiness check — not a promotion,validate,failed,,24.0,0.175,0.0
+verify-001,Readiness check — not a promotion,verify,failed,,58.0,0.19111111111111112,0.0
+verify-002,Readiness check — not a promotion,verify,failed,,52.0,0.20555555555555555,0.0
+verify-003,Readiness check — not a promotion,verify,failed,,58.0,0.22166666666666668,0.0
+verify-004,Readiness check — not a promotion,verify,passed,,69.0,0.24083333333333334,0.0
+verify-005,Readiness check — not a promotion,verify,passed,,19.0,0.2461111111111111,0.0
+witness-controls-001,Readiness check — not a promotion,diagnose,diagnostic completed; not qualification,,38.0,0.25666666666666665,0.0
