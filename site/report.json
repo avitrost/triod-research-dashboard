@@ -12,17 +12,37 @@
     },
     {
       "elapsed_seconds": 0.0,
-      "gpu_hours": 0.008333333333333333,
-      "gpu_seconds": 0.0,
+      "gpu_hours": 0.010555555555555556,
+      "gpu_seconds": 8.0,
       "id": "assets-002",
-      "outcome": "queued or running",
+      "outcome": "failed",
       "stage": "assets",
       "summary": "Readiness check \u2014 not a promotion",
       "tokens_s": null
     },
     {
       "elapsed_seconds": 0.0,
-      "gpu_hours": 0.024444444444444446,
+      "gpu_hours": 0.01638888888888889,
+      "gpu_seconds": 21.0,
+      "id": "assets-003",
+      "outcome": "passed",
+      "stage": "assets",
+      "summary": "Readiness check \u2014 not a promotion",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 0.0,
+      "gpu_hours": 0.01638888888888889,
+      "gpu_seconds": 0.0,
+      "id": "funnel-001",
+      "outcome": "queued or running",
+      "stage": "screen",
+      "summary": "Readiness check \u2014 not a promotion",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 0.0,
+      "gpu_hours": 0.0325,
       "gpu_seconds": 58.0,
       "id": "verify-001",
       "outcome": "failed",
@@ -32,9 +52,29 @@
     },
     {
       "elapsed_seconds": 0.0,
-      "gpu_hours": 0.024444444444444446,
-      "gpu_seconds": 0.0,
+      "gpu_hours": 0.04694444444444444,
+      "gpu_seconds": 52.0,
       "id": "verify-002",
+      "outcome": "failed",
+      "stage": "verify",
+      "summary": "Readiness check \u2014 not a promotion",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 0.0,
+      "gpu_hours": 0.06305555555555556,
+      "gpu_seconds": 58.0,
+      "id": "verify-003",
+      "outcome": "failed",
+      "stage": "verify",
+      "summary": "Readiness check \u2014 not a promotion",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 0.0,
+      "gpu_hours": 0.06305555555555556,
+      "gpu_seconds": 0.0,
+      "id": "verify-004",
       "outcome": "queued or running",
       "stage": "verify",
       "summary": "Readiness check \u2014 not a promotion",
@@ -44,8 +84,8 @@
   "baseline_note": "Dense calibration pending. Old GPT-2 speedups are not imported.",
   "campaign": "Llama-G8 readiness",
   "contract": "16 layers \u00b7 width2048 \u00b7 32Q/8KV \u00b7 eight triangular profiles \u00b7 BF16 + FP32 cumulative logits \u00b7 u\u00b2 routing with predictions at every reached stage \u00b7 B2048/P64/burn896/window32",
-  "gpu_hours": 0.024444444444444446,
+  "gpu_hours": 0.06305555555555556,
   "selected": [],
   "status": "Setup and correctness validation. No long optimization campaign has started; no qualified incumbent throughput yet.",
-  "updated_at": "2026-09-12T19:07:26+00:00"
+  "updated_at": "2026-09-12T19:28:39+00:00"
 }
