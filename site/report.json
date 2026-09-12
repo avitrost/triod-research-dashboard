@@ -32,9 +32,19 @@
     },
     {
       "elapsed_seconds": 0.0,
-      "gpu_hours": 0.01638888888888889,
-      "gpu_seconds": 0.0,
+      "gpu_hours": 0.022222222222222223,
+      "gpu_seconds": 21.0,
       "id": "funnel-001",
+      "outcome": "passed",
+      "stage": "screen",
+      "summary": "Readiness check \u2014 not a promotion",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 0.0,
+      "gpu_hours": 0.022222222222222223,
+      "gpu_seconds": 0.0,
+      "id": "funnel-002",
       "outcome": "queued or running",
       "stage": "screen",
       "summary": "Readiness check \u2014 not a promotion",
@@ -42,7 +52,37 @@
     },
     {
       "elapsed_seconds": 0.0,
-      "gpu_hours": 0.0325,
+      "gpu_hours": 0.022222222222222223,
+      "gpu_seconds": 0.0,
+      "id": "numerics-001",
+      "outcome": "queued or running",
+      "stage": "diagnose",
+      "summary": "Readiness check \u2014 not a promotion",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 0.0,
+      "gpu_hours": 0.04972222222222222,
+      "gpu_seconds": 99.0,
+      "id": "primary-001",
+      "outcome": "passed",
+      "stage": "phase",
+      "summary": "Readiness check \u2014 not a promotion",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 0.0,
+      "gpu_hours": 0.05638888888888889,
+      "gpu_seconds": 24.0,
+      "id": "validate-001",
+      "outcome": "failed",
+      "stage": "validate",
+      "summary": "Readiness check \u2014 not a promotion",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 0.0,
+      "gpu_hours": 0.0725,
       "gpu_seconds": 58.0,
       "id": "verify-001",
       "outcome": "failed",
@@ -52,7 +92,7 @@
     },
     {
       "elapsed_seconds": 0.0,
-      "gpu_hours": 0.04694444444444444,
+      "gpu_hours": 0.08694444444444445,
       "gpu_seconds": 52.0,
       "id": "verify-002",
       "outcome": "failed",
@@ -62,7 +102,7 @@
     },
     {
       "elapsed_seconds": 0.0,
-      "gpu_hours": 0.06305555555555556,
+      "gpu_hours": 0.10305555555555555,
       "gpu_seconds": 58.0,
       "id": "verify-003",
       "outcome": "failed",
@@ -72,10 +112,20 @@
     },
     {
       "elapsed_seconds": 0.0,
-      "gpu_hours": 0.06305555555555556,
-      "gpu_seconds": 0.0,
+      "gpu_hours": 0.12222222222222222,
+      "gpu_seconds": 69.0,
       "id": "verify-004",
-      "outcome": "queued or running",
+      "outcome": "passed",
+      "stage": "verify",
+      "summary": "Readiness check \u2014 not a promotion",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 0.0,
+      "gpu_hours": 0.1275,
+      "gpu_seconds": 19.0,
+      "id": "verify-005",
+      "outcome": "passed",
       "stage": "verify",
       "summary": "Readiness check \u2014 not a promotion",
       "tokens_s": null
@@ -84,8 +134,8 @@
   "baseline_note": "Dense calibration pending. Old GPT-2 speedups are not imported.",
   "campaign": "Llama-G8 readiness",
   "contract": "16 layers \u00b7 width2048 \u00b7 32Q/8KV \u00b7 eight triangular profiles \u00b7 BF16 + FP32 cumulative logits \u00b7 u\u00b2 routing with predictions at every reached stage \u00b7 B2048/P64/burn896/window32",
-  "gpu_hours": 0.06305555555555556,
+  "gpu_hours": 0.1275,
   "selected": [],
   "status": "Setup and correctness validation. No long optimization campaign has started; no qualified incumbent throughput yet.",
-  "updated_at": "2026-09-12T19:28:39+00:00"
+  "updated_at": "2026-09-12T19:49:29+00:00"
 }

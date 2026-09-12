@@ -36,7 +36,7 @@
     const axis = byId("axis").value;
     const raw = data.attempts.filter(a => a.tokens_s != null);
     const all = [...data.selected, ...raw];
-    const xmax = Math.max(1, ...all.map(p => p[axis] || 0));
+    const xmax = Math.max(axis === "elapsed_seconds" ? 3600 : 1, ...all.map(p => p[axis] || 0));
     const ymin = 0, ymax = Math.max(...all.map(p => p.tokens_s)) * 1.1;
     const x = value => 85 + value / xmax * 920;
     const y = value => 305 - (value - ymin) / (ymax - ymin) * 270;
@@ -55,7 +55,7 @@
       const circle = element("circle", {cx:x(p[axis]||0),cy:y(p.tokens_s),r:4,fill:p.outcome === "promoted"?"#007c7a":"#a7b5c0",opacity:.75});
       circle.appendChild(element("title",{},`${p.id}: ${p.outcome}; ${number(p.tokens_s)} tok/s`)); svg.appendChild(circle);
     }
-    svg.appendChild(element("text", {x:540,y:354,"text-anchor":"middle","font-family":"sans-serif","font-size":13,fill:"#193047"}, axis === "elapsed_seconds" ? "Elapsed wall time (hours)" : "Cumulative allocated GPU-hours"));
+    svg.appendChild(element("text", {x:540,y:354,"text-anchor":"middle","font-family":"sans-serif","font-size":13,fill:"#193047"}, axis === "elapsed_seconds" ? "Elapsed wall time (hours)" : "Cumulative completed-job GPU-hours"));
     svg.appendChild(element("text", {x:85,y:20,"font-family":"sans-serif","font-size":13,fill:"#193047"}, "Generated tokens / second"));
     target.appendChild(svg);
   }

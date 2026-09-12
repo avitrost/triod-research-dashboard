@@ -12,11 +12,11 @@
   <section class="metrics" aria-label="Campaign summary">
     <div><span>Campaign</span><strong id="campaign">—</strong></div>
     <div><span>Qualified incumbent</span><strong id="score">Not calibrated</strong></div>
-    <div><span>Allocated GPU-hours</span><strong id="gpu-hours">0</strong></div>
+    <div><span>Completed-job GPU-hours</span><strong id="gpu-hours">0</strong></div>
     <div><span>Last collected</span><strong id="updated">—</strong></div>
   </section>
   <section class="panel"><div class="chart-head"><div><h2>Confirmed progress</h2><p>Only qualified promotions change the incumbent. Raw attempts are separate.</p></div>
-    <label>Horizontal axis <select id="axis"><option value="elapsed_seconds">Elapsed wall time</option><option value="gpu_hours">Allocated GPU-hours</option></select></label></div>
+    <label>Horizontal axis <select id="axis"><option value="elapsed_seconds">Elapsed wall time</option><option value="gpu_hours">Completed-job GPU-hours</option></select></label></div>
     <div id="chart" role="img" aria-label="Nondecreasing qualified incumbent throughput curve"></div>
     <div class="downloads"><a href="report.json">JSON</a><a href="attempts.csv">CSV</a><button id="svg-download">Download SVG</button><button id="png-download">Download PNG</button></div>
   </section>
