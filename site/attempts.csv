@@ -1,3 +1,5 @@
 id,summary,stage,outcome,tokens_s,gpu_seconds,gpu_hours,elapsed_seconds
-assets-001,Readiness check — not a promotion,assets,failed,,0.0,0.0,0.0
-verify-001,Readiness check — not a promotion,verify,failed,,0.0,0.0,0.0
+assets-001,Readiness check — not a promotion,assets,failed,,30.0,0.008333333333333333,0.0
+assets-002,Readiness check — not a promotion,assets,queued or running,,0.0,0.008333333333333333,0.0
+verify-001,Readiness check — not a promotion,verify,failed,,58.0,0.024444444444444446,0.0
+verify-002,Readiness check — not a promotion,verify,queued or running,,0.0,0.024444444444444446,0.0
