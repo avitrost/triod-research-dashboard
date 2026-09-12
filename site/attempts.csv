@@ -1,0 +1,3 @@
+id,summary,stage,outcome,tokens_s,gpu_seconds,gpu_hours,elapsed_seconds
+assets-001,Readiness check — not a promotion,assets,failed,,0.0,0.0,0.0
+verify-001,Readiness check — not a promotion,verify,failed,,0.0,0.0,0.0
