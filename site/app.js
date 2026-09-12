@@ -49,7 +49,8 @@
     }
     let path = "";
     for (const [i,p] of data.selected.entries()) path += i === 0 ? `M ${x(p[axis])} ${y(p.tokens_s)}` : ` H ${x(p[axis])} V ${y(p.tokens_s)}`;
-    path += ` H ${x(xmax)}`;
+    // Stop at observed evidence, not the unused future portion of the axis.
+    path += ` H ${x(Math.max(...all.map(p => p[axis] || 0)))}`;
     svg.appendChild(element("path", {d:path,fill:"none",stroke:"#007c7a","stroke-width":3}));
     for (const p of raw) {
       const circle = element("circle", {cx:x(p[axis]||0),cy:y(p.tokens_s),r:4,fill:p.outcome === "promoted"?"#007c7a":"#a7b5c0",opacity:.75});
