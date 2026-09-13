@@ -12,6 +12,7 @@ id,summary,stage,outcome,tokens_s,gpu_seconds,gpu_hours,elapsed_seconds
 3c601b82d60c9b18,integration backend candidate,validated,validated,,102.5,0.9875,17613.9795794487
 435130d51e2033df,integration backend candidate,validated,validated,,93.33333333333333,0.6413888888888889,6138.821926832199
 466f8f7827dfa536,integration backend candidate,promoted,promoted,84583.39906797485,531.0,1.1408333333333334,19885.178208827972
+48982f287d144ce7,integration backend candidate,research_withdrawn,research_withdrawn,,127.0,1.2605555555555557,23561.362717151642
 4ae02e8b86576fb8,integration backend candidate,validated,validated,,100.5,0.9672222222222222,17613.71449804306
 4ce64fbdd2a52c5f,integration backend candidate,validated,validated,,110.0,0.6633333333333333,6138.890938282013
 4fe92d82cb061907,integration backend candidate,validated,validated,,116.0,0.9311111111111111,14420.789685487747
@@ -24,13 +25,13 @@ id,summary,stage,outcome,tokens_s,gpu_seconds,gpu_hours,elapsed_seconds
 8fd9b41d6eacd45a,integration backend candidate,validated,validated,,93.33333333333333,0.6947222222222222,6233.248611450195
 932e3165ab3390f7,integration backend candidate,validated,validated,,96.0,0.5527777777777778,4834.102841377258
 9957d5a6acd321b8,integration backend candidate,validated,validated,,118.0,1.0202777777777778,19884.788428783417
-9ee2a09d6e8c8439,integration backend candidate,screen_running,screen_running,,0.0,0.0,19947.97173166275
+9ee2a09d6e8c8439,integration backend candidate,validated,validated,,101.0,1.2252777777777777,21036.686665296555
 ac7ede9ee19f6116,attention backend candidate,slow_rejected,slow_rejected,,21.0,0.02638888888888889,1305.9789638519287
 adc8f7778d7cb62f,integration backend candidate,validated,validated,,113.0,0.7908333333333334,9733.17460823059
 bb2988ad206c3719,attention backend candidate,stale_rebase_required,stale_rebase_required,,14.0,0.41083333333333333,2975.9290828704834
-c5ee3ccfc67c4440,integration backend candidate,screen_running,screen_running,,0.0,0.0,19948.54052257538
+c5ee3ccfc67c4440,integration backend candidate,research_withdrawn,research_withdrawn,,101.0,1.1844444444444444,23561.749570131302
 c9506b0738129f12,attention backend candidate,validated,validated,,99.0,0.06972222222222223,1636.076182603836
-c9ec7cef0561b15b,integration backend candidate,screen_running,screen_running,,0.0,0.0,19948.328216552734
+c9ec7cef0561b15b,integration backend candidate,promoted,promoted,112817.37598359259,455.0,1.3586111111111112,25041.8347363472
 cb29ae5a29697395,integration backend candidate,inconclusive_or_no_gain,inconclusive_or_no_gain,,37.0,0.7277777777777777,7004.599832057953
 cd4ea040790a710b,integration backend candidate,validated,validated,,98.0,0.9105555555555556,14420.62943482399
 ce6b838b2e332d71,attention backend candidate,validated,validated,,86.0,0.18583333333333332,2056.3563714027405
