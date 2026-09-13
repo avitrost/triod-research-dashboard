@@ -11,6 +11,36 @@
       "tokens_s": null
     },
     {
+      "elapsed_seconds": 866.2841229438782,
+      "gpu_hours": 0.0,
+      "gpu_seconds": 0.0,
+      "id": "2ad3bf08917914b0",
+      "outcome": "screen_running",
+      "stage": "screen_running",
+      "summary": "attention backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 189.20580768585205,
+      "gpu_hours": 0.0,
+      "gpu_seconds": 0.0,
+      "id": "2d0f1c5a4e0787d0",
+      "outcome": "screen_running",
+      "stage": "screen_running",
+      "summary": "projection backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 480.3380765914917,
+      "gpu_hours": 0.0,
+      "gpu_seconds": 0.0,
+      "id": "6e805ded1517d321",
+      "outcome": "screen_running",
+      "stage": "screen_running",
+      "summary": "attention backend candidate",
+      "tokens_s": null
+    },
+    {
       "elapsed_seconds": 30.44258975982666,
       "gpu_hours": 0.0,
       "gpu_seconds": 0.0,
@@ -35,6 +65,16 @@
       "gpu_hours": 0.0,
       "gpu_seconds": 0.0,
       "id": "c9506b0738129f12",
+      "outcome": "screen_running",
+      "stage": "screen_running",
+      "summary": "attention backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 866.3950145244598,
+      "gpu_hours": 0.0,
+      "gpu_seconds": 0.0,
+      "id": "ce6b838b2e332d71",
       "outcome": "screen_running",
       "stage": "screen_running",
       "summary": "attention backend candidate",
@@ -73,5 +113,5 @@
     }
   ],
   "status": "Supervised campaign; only qualified matched-control promotions change the incumbent.",
-  "updated_at": "2026-09-13T02:02:32+00:00"
+  "updated_at": "2026-09-13T02:15:55+00:00"
 }

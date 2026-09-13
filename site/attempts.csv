@@ -1,7 +1,11 @@
 id,summary,stage,outcome,tokens_s,gpu_seconds,gpu_hours,elapsed_seconds
 174388bed2a7f2e1,attention backend candidate,screen_running,screen_running,,0.0,0.0,30.70097303390503
+2ad3bf08917914b0,attention backend candidate,screen_running,screen_running,,0.0,0.0,866.2841229438782
+2d0f1c5a4e0787d0,projection backend candidate,screen_running,screen_running,,0.0,0.0,189.20580768585205
+6e805ded1517d321,attention backend candidate,screen_running,screen_running,,0.0,0.0,480.3380765914917
 754193be898891cf,attention backend candidate,screen_running,screen_running,,0.0,0.0,30.44258975982666
 ac7ede9ee19f6116,attention backend candidate,screen_running,screen_running,,0.0,0.0,30.6163592338562
 c9506b0738129f12,attention backend candidate,screen_running,screen_running,,0.0,0.0,30.34811282157898
+ce6b838b2e332d71,attention backend candidate,screen_running,screen_running,,0.0,0.0,866.3950145244598
 e0d0ec6b8747ebf0,attention backend candidate,screen_running,screen_running,,0.0,0.0,30.528356313705444
 ffc9bef34ae5daa3,normalization backend candidate,screen_running,screen_running,,0.0,0.0,103.27121067047119
