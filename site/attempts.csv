@@ -40,8 +40,8 @@ cd4ea040790a710b,integration backend candidate,validated,validated,,98.0,0.91055
 ce6b838b2e332d71,attention backend candidate,validated,validated,,86.0,0.18583333333333332,2056.3563714027405
 d887da8ad272b82c,integration backend candidate,stale_rebase_required,stale_rebase_required,,108.0,0.4325,2975.967748403549
 dcda806ab58e4f28,integration backend candidate,validated,validated,,120.0,0.5761111111111111,4911.645922660828
-e04a82cb602d3603,integration backend candidate,confirmation_running,confirmation_running,,114.0,1.5722222222222222,32049.258348226547
+e04a82cb602d3603,integration backend candidate,job_failed,job_failed,,114.0,1.606111111111111,39439.404437065125
 e0d0ec6b8747ebf0,attention backend candidate,slow_rejected,slow_rejected,,27.0,0.03388888888888889,1306.001586675644
 eaa3539f497cdd95,integration backend candidate,validated,validated,,98.0,0.8894444444444445,14420.37701177597
-f09ef9811c26d9fe,integration backend candidate,validated,validated,,122.0,1.606111111111111,32670.12299180031
+f09ef9811c26d9fe,integration backend candidate,job_failed,job_failed,,122.0,1.606111111111111,43231.35721921921
 ffc9bef34ae5daa3,normalization backend candidate,inconclusive_or_no_gain,inconclusive_or_no_gain,,11.0,0.0030555555555555557,1305.9568557739258
