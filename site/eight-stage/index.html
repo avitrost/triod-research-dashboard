@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>TriOD · Llama G8 research</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header><p class="eyebrow">REPRODUCIBLE SYSTEMS RESEARCH · H200</p><h1>Llama G8 cascading inference</h1>
+    <p id="description">Synthetic weights and routing. Systems measurements, not model quality.</p></header>
+  <section class="metrics" aria-label="Campaign summary">
+    <div><span>Campaign</span><strong id="campaign">—</strong></div>
+    <div><span>Qualified incumbent</span><strong id="score">Not calibrated</strong></div>
+    <div><span>Completed-job GPU-hours</span><strong id="gpu-hours">0</strong></div>
+    <div><span>Last collected</span><strong id="updated">—</strong></div>
+  </section>
+  <section class="panel"><div class="chart-head"><div><h2>Confirmed progress</h2><p>Only qualified promotions change the incumbent. Raw attempts are separate.</p></div>
+    <label>Horizontal axis <select id="axis"><option value="elapsed_seconds">Elapsed wall time</option><option value="gpu_hours">Completed-job GPU-hours</option></select></label></div>
+    <div id="chart" role="img" aria-label="Nondecreasing qualified incumbent throughput curve"></div>
+    <div class="downloads"><a href="report.json">JSON</a><a href="attempts.csv">CSV</a><button id="svg-download">Download SVG</button><button id="png-download">Download PNG</button></div>
+  </section>
+  <section class="panel"><h2>Experiment contract</h2><p id="contract"></p><p id="baseline"></p><p id="status" class="notice"></p></section>
+  <section class="panel"><h2>Attempts and readiness checks</h2><div class="table-wrap"><table><thead><tr><th>Attempt</th><th>Summary</th><th>Stage</th><th>Outcome</th><th>Measured tok/s</th><th>GPU seconds</th></tr></thead><tbody id="attempts"></tbody></table></div></section>
+  <footer>Public metrics only. No model weights, source archives, raw worker logs or machine identities are published here. <a href="https://github.com/avitrost/triod-research-dashboard">Reporting repository</a></footer>
+</main>
+<script src="data.js"></script><script src="app.js"></script>
+</body></html>

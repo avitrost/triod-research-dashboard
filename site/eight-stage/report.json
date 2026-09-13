@@ -1,0 +1,497 @@
+{
+  "attempts": [
+    {
+      "elapsed_seconds": 7004.53225684166,
+      "gpu_hours": 0.7175,
+      "gpu_seconds": 117.0,
+      "id": "0bd0c6620442e33a",
+      "outcome": "validated",
+      "stage": "validated",
+      "summary": "integration backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 2975.9284908771515,
+      "gpu_hours": 0.41083333333333333,
+      "gpu_seconds": 14.0,
+      "id": "0c6baf5ffa3eddbb",
+      "outcome": "stale_rebase_required",
+      "stage": "stale_rebase_required",
+      "summary": "attention backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 1305.978765964508,
+      "gpu_hours": 0.02638888888888889,
+      "gpu_seconds": 21.0,
+      "id": "174388bed2a7f2e1",
+      "outcome": "slow_rejected",
+      "stage": "slow_rejected",
+      "summary": "attention backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 2056.3857958316803,
+      "gpu_hours": 0.20722222222222222,
+      "gpu_seconds": 108.0,
+      "id": "1cc7eb4e4ca9f8b8",
+      "outcome": "validated",
+      "stage": "validated",
+      "summary": "integration backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 5972.8397052288055,
+      "gpu_hours": 0.6197222222222222,
+      "gpu_seconds": 95.33333333333333,
+      "id": "1fce22d78739d068",
+      "outcome": "validated",
+      "stage": "validated",
+      "summary": "integration backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 10328.947234392166,
+      "gpu_hours": 0.7908333333333334,
+      "gpu_seconds": 92.0,
+      "id": "255e6b22f8358d26",
+      "outcome": "job_failed",
+      "stage": "job_failed",
+      "summary": "attention backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 2056.297158241272,
+      "gpu_hours": 0.14333333333333334,
+      "gpu_seconds": 85.0,
+      "id": "2ad3bf08917914b0",
+      "outcome": "validated",
+      "stage": "validated",
+      "summary": "attention backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 2056.267156600952,
+      "gpu_hours": 0.12277777777777778,
+      "gpu_seconds": 91.0,
+      "id": "2d0f1c5a4e0787d0",
+      "outcome": "validated",
+      "stage": "validated",
+      "summary": "projection backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 3212.809898853302,
+      "gpu_hours": 0.4891666666666667,
+      "gpu_seconds": 112.0,
+      "id": "3b22908864793c78",
+      "outcome": "validated",
+      "stage": "validated",
+      "summary": "integration backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 4731.475703716278,
+      "gpu_hours": 0.5308333333333334,
+      "gpu_seconds": 97.0,
+      "id": "3ba75a667f4c9c79",
+      "outcome": "validated",
+      "stage": "validated",
+      "summary": "integration backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 17613.9795794487,
+      "gpu_hours": 0.9875,
+      "gpu_seconds": 102.5,
+      "id": "3c601b82d60c9b18",
+      "outcome": "validated",
+      "stage": "validated",
+      "summary": "integration backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 6138.821926832199,
+      "gpu_hours": 0.6413888888888889,
+      "gpu_seconds": 93.33333333333333,
+      "id": "435130d51e2033df",
+      "outcome": "validated",
+      "stage": "validated",
+      "summary": "integration backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 19885.178208827972,
+      "gpu_hours": 1.1408333333333334,
+      "gpu_seconds": 531.0,
+      "id": "466f8f7827dfa536",
+      "outcome": "promoted",
+      "stage": "promoted",
+      "summary": "integration backend candidate",
+      "tokens_s": 84583.39906797485
+    },
+    {
+      "elapsed_seconds": 23561.362717151642,
+      "gpu_hours": 1.2605555555555557,
+      "gpu_seconds": 127.0,
+      "id": "48982f287d144ce7",
+      "outcome": "research_withdrawn",
+      "stage": "research_withdrawn",
+      "summary": "integration backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 17613.71449804306,
+      "gpu_hours": 0.9672222222222222,
+      "gpu_seconds": 100.5,
+      "id": "4ae02e8b86576fb8",
+      "outcome": "validated",
+      "stage": "validated",
+      "summary": "integration backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 6138.890938282013,
+      "gpu_hours": 0.6633333333333333,
+      "gpu_seconds": 110.0,
+      "id": "4ce64fbdd2a52c5f",
+      "outcome": "validated",
+      "stage": "validated",
+      "summary": "integration backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 14420.789685487747,
+      "gpu_hours": 0.9311111111111111,
+      "gpu_seconds": 116.0,
+      "id": "4fe92d82cb061907",
+      "outcome": "validated",
+      "stage": "validated",
+      "summary": "integration backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 14111.578055620193,
+      "gpu_hours": 0.8683333333333333,
+      "gpu_seconds": 96.0,
+      "id": "530d2f96bb83f4c3",
+      "outcome": "validated",
+      "stage": "validated",
+      "summary": "integration backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 17614.169350147247,
+      "gpu_hours": 0.9875,
+      "gpu_seconds": 114.0,
+      "id": "584b0acdadab49d4",
+      "outcome": "job_failed",
+      "stage": "job_failed",
+      "summary": "integration backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 2056.3265855312347,
+      "gpu_hours": 0.165,
+      "gpu_seconds": 95.0,
+      "id": "6e805ded1517d321",
+      "outcome": "validated",
+      "stage": "validated",
+      "summary": "attention backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 29522.370648622513,
+      "gpu_hours": 1.3930555555555555,
+      "gpu_seconds": 97.0,
+      "id": "715783de5d54115e",
+      "outcome": "validated",
+      "stage": "validated",
+      "summary": "integration backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 2852.0093429088593,
+      "gpu_hours": 0.40305555555555556,
+      "gpu_seconds": 570.0,
+      "id": "754193be898891cf",
+      "outcome": "promoted",
+      "stage": "promoted",
+      "summary": "attention backend candidate",
+      "tokens_s": 27991.16702021614
+    },
+    {
+      "elapsed_seconds": 30209.776576280594,
+      "gpu_hours": 1.4461111111111111,
+      "gpu_seconds": 122.0,
+      "id": "75801bb1e57e9e0e",
+      "outcome": "validated",
+      "stage": "validated",
+      "summary": "integration backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 2419.4754452705383,
+      "gpu_hours": 0.27305555555555555,
+      "gpu_seconds": 103.0,
+      "id": "77dd9ddc60fab33e",
+      "outcome": "validated",
+      "stage": "validated",
+      "summary": "integration backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 2338.997440814972,
+      "gpu_hours": 0.24388888888888888,
+      "gpu_seconds": 104.0,
+      "id": "899c2cfb45ce3a54",
+      "outcome": "validated",
+      "stage": "validated",
+      "summary": "integration backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 6233.248611450195,
+      "gpu_hours": 0.6947222222222222,
+      "gpu_seconds": 93.33333333333333,
+      "id": "8fd9b41d6eacd45a",
+      "outcome": "validated",
+      "stage": "validated",
+      "summary": "integration backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 4834.102841377258,
+      "gpu_hours": 0.5527777777777778,
+      "gpu_seconds": 96.0,
+      "id": "932e3165ab3390f7",
+      "outcome": "validated",
+      "stage": "validated",
+      "summary": "integration backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 19884.788428783417,
+      "gpu_hours": 1.0202777777777778,
+      "gpu_seconds": 118.0,
+      "id": "9957d5a6acd321b8",
+      "outcome": "validated",
+      "stage": "validated",
+      "summary": "integration backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 21036.686665296555,
+      "gpu_hours": 1.2252777777777777,
+      "gpu_seconds": 101.0,
+      "id": "9ee2a09d6e8c8439",
+      "outcome": "validated",
+      "stage": "validated",
+      "summary": "integration backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 1305.9789638519287,
+      "gpu_hours": 0.02638888888888889,
+      "gpu_seconds": 21.0,
+      "id": "ac7ede9ee19f6116",
+      "outcome": "slow_rejected",
+      "stage": "slow_rejected",
+      "summary": "attention backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 9733.17460823059,
+      "gpu_hours": 0.7908333333333334,
+      "gpu_seconds": 113.0,
+      "id": "adc8f7778d7cb62f",
+      "outcome": "validated",
+      "stage": "validated",
+      "summary": "integration backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 30941.996584177017,
+      "gpu_hours": 1.5405555555555555,
+      "gpu_seconds": 436.0,
+      "id": "b50745c1c2b67c50",
+      "outcome": "promoted",
+      "stage": "promoted",
+      "summary": "integration backend candidate",
+      "tokens_s": 114699.65233428899
+    },
+    {
+      "elapsed_seconds": 2975.9290828704834,
+      "gpu_hours": 0.41083333333333333,
+      "gpu_seconds": 14.0,
+      "id": "bb2988ad206c3719",
+      "outcome": "stale_rebase_required",
+      "stage": "stale_rebase_required",
+      "summary": "attention backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 23561.749570131302,
+      "gpu_hours": 1.1844444444444444,
+      "gpu_seconds": 101.0,
+      "id": "c5ee3ccfc67c4440",
+      "outcome": "research_withdrawn",
+      "stage": "research_withdrawn",
+      "summary": "integration backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 1636.076182603836,
+      "gpu_hours": 0.06972222222222223,
+      "gpu_seconds": 99.0,
+      "id": "c9506b0738129f12",
+      "outcome": "validated",
+      "stage": "validated",
+      "summary": "attention backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 25041.8347363472,
+      "gpu_hours": 1.3586111111111112,
+      "gpu_seconds": 455.0,
+      "id": "c9ec7cef0561b15b",
+      "outcome": "promoted",
+      "stage": "promoted",
+      "summary": "integration backend candidate",
+      "tokens_s": 112817.37598359259
+    },
+    {
+      "elapsed_seconds": 7004.599832057953,
+      "gpu_hours": 0.7277777777777777,
+      "gpu_seconds": 37.0,
+      "id": "cb29ae5a29697395",
+      "outcome": "inconclusive_or_no_gain",
+      "stage": "inconclusive_or_no_gain",
+      "summary": "integration backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 14420.62943482399,
+      "gpu_hours": 0.9105555555555556,
+      "gpu_seconds": 98.0,
+      "id": "cd4ea040790a710b",
+      "outcome": "validated",
+      "stage": "validated",
+      "summary": "integration backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 2056.3563714027405,
+      "gpu_hours": 0.18583333333333332,
+      "gpu_seconds": 86.0,
+      "id": "ce6b838b2e332d71",
+      "outcome": "validated",
+      "stage": "validated",
+      "summary": "attention backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 2975.967748403549,
+      "gpu_hours": 0.4325,
+      "gpu_seconds": 108.0,
+      "id": "d887da8ad272b82c",
+      "outcome": "stale_rebase_required",
+      "stage": "stale_rebase_required",
+      "summary": "integration backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 4911.645922660828,
+      "gpu_hours": 0.5761111111111111,
+      "gpu_seconds": 120.0,
+      "id": "dcda806ab58e4f28",
+      "outcome": "validated",
+      "stage": "validated",
+      "summary": "integration backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 39439.404437065125,
+      "gpu_hours": 1.606111111111111,
+      "gpu_seconds": 114.0,
+      "id": "e04a82cb602d3603",
+      "outcome": "job_failed",
+      "stage": "job_failed",
+      "summary": "integration backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 1306.001586675644,
+      "gpu_hours": 0.03388888888888889,
+      "gpu_seconds": 27.0,
+      "id": "e0d0ec6b8747ebf0",
+      "outcome": "slow_rejected",
+      "stage": "slow_rejected",
+      "summary": "attention backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 14420.37701177597,
+      "gpu_hours": 0.8894444444444445,
+      "gpu_seconds": 98.0,
+      "id": "eaa3539f497cdd95",
+      "outcome": "validated",
+      "stage": "validated",
+      "summary": "integration backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 43231.35721921921,
+      "gpu_hours": 1.606111111111111,
+      "gpu_seconds": 122.0,
+      "id": "f09ef9811c26d9fe",
+      "outcome": "job_failed",
+      "stage": "job_failed",
+      "summary": "integration backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 1305.9568557739258,
+      "gpu_hours": 0.0030555555555555557,
+      "gpu_seconds": 11.0,
+      "id": "ffc9bef34ae5daa3",
+      "outcome": "inconclusive_or_no_gain",
+      "stage": "inconclusive_or_no_gain",
+      "summary": "normalization backend candidate",
+      "tokens_s": null
+    }
+  ],
+  "baseline_note": "Dense refers to the frozen calibrated graph-enabled backend, not an equally optimized deployment baseline. General kernel improvements can also accelerate dense inference; use separate matched dense-transfer diagnostics for that comparison. This curve and its GPU-hour axis cover campaign-managed jobs only; standalone screening, profiling and deployment-comparison costs are recorded separately.",
+  "campaign": "Llama G8 FP16 synthetic",
+  "contract": "Llama G8 \u00b7 8 execution exits \u00b7 FP16 weights/activations/KV \u00b7 synthetic u\u00b2 policy \u00b7 stagewise FP32 logits and Top1 \u00b7 B2048/P64/burn896/window32 \u00b7 H200",
+  "gpu_hours": 1.606111111111111,
+  "selected": [
+    {
+      "elapsed_seconds": 0.0,
+      "gpu_hours": 0.0,
+      "tokens_s": 26502.986358118334
+    },
+    {
+      "elapsed_seconds": 2852.028347969055,
+      "gpu_hours": 0.40305555555555556,
+      "tokens_s": 27991.16702021614
+    },
+    {
+      "elapsed_seconds": 19885.19797229767,
+      "gpu_hours": 1.1408333333333334,
+      "tokens_s": 84583.39906797485
+    },
+    {
+      "elapsed_seconds": 25041.855110645294,
+      "gpu_hours": 1.3586111111111112,
+      "tokens_s": 112817.37598359259
+    },
+    {
+      "elapsed_seconds": 30942.016743659973,
+      "gpu_hours": 1.5405555555555555,
+      "tokens_s": 114699.65233428899
+    }
+  ],
+  "status": "Campaign window ended; only completed, qualified matched-control promotions are retained.",
+  "updated_at": "2026-09-13T18:21:06+00:00"
+}
