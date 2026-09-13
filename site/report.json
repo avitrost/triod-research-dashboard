@@ -201,6 +201,16 @@
       "tokens_s": null
     },
     {
+      "elapsed_seconds": 29522.370648622513,
+      "gpu_hours": 1.3930555555555555,
+      "gpu_seconds": 97.0,
+      "id": "715783de5d54115e",
+      "outcome": "validated",
+      "stage": "validated",
+      "summary": "integration backend candidate",
+      "tokens_s": null
+    },
+    {
       "elapsed_seconds": 2852.0093429088593,
       "gpu_hours": 0.40305555555555556,
       "gpu_seconds": 570.0,
@@ -209,6 +219,16 @@
       "stage": "promoted",
       "summary": "attention backend candidate",
       "tokens_s": 27991.16702021614
+    },
+    {
+      "elapsed_seconds": 30209.776576280594,
+      "gpu_hours": 1.4461111111111111,
+      "gpu_seconds": 122.0,
+      "id": "75801bb1e57e9e0e",
+      "outcome": "validated",
+      "stage": "validated",
+      "summary": "integration backend candidate",
+      "tokens_s": null
     },
     {
       "elapsed_seconds": 2419.4754452705383,
@@ -289,6 +309,16 @@
       "stage": "validated",
       "summary": "integration backend candidate",
       "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 30941.996584177017,
+      "gpu_hours": 1.5405555555555555,
+      "gpu_seconds": 436.0,
+      "id": "b50745c1c2b67c50",
+      "outcome": "promoted",
+      "stage": "promoted",
+      "summary": "integration backend candidate",
+      "tokens_s": 114699.65233428899
     },
     {
       "elapsed_seconds": 2975.9290828704834,
@@ -381,6 +411,16 @@
       "tokens_s": null
     },
     {
+      "elapsed_seconds": 32049.258348226547,
+      "gpu_hours": 1.5722222222222222,
+      "gpu_seconds": 114.0,
+      "id": "e04a82cb602d3603",
+      "outcome": "confirmation_running",
+      "stage": "confirmation_running",
+      "summary": "integration backend candidate",
+      "tokens_s": null
+    },
+    {
       "elapsed_seconds": 1306.001586675644,
       "gpu_hours": 0.03388888888888889,
       "gpu_seconds": 27.0,
@@ -401,6 +441,16 @@
       "tokens_s": null
     },
     {
+      "elapsed_seconds": 32670.12299180031,
+      "gpu_hours": 1.606111111111111,
+      "gpu_seconds": 122.0,
+      "id": "f09ef9811c26d9fe",
+      "outcome": "validated",
+      "stage": "validated",
+      "summary": "integration backend candidate",
+      "tokens_s": null
+    },
+    {
       "elapsed_seconds": 1305.9568557739258,
       "gpu_hours": 0.0030555555555555557,
       "gpu_seconds": 11.0,
@@ -414,7 +464,7 @@
   "baseline_note": "Dense refers to the frozen calibrated graph-enabled backend, not an equally optimized deployment baseline. General kernel improvements can also accelerate dense inference; use separate matched dense-transfer diagnostics for that comparison.",
   "campaign": "Llama G8 FP16 synthetic",
   "contract": "Llama G8 \u00b7 FP16 weights/activations/KV \u00b7 synthetic u\u00b2 policy \u00b7 stagewise FP32 logits and Top1 \u00b7 B2048/P64/burn896/window32 \u00b7 H200",
-  "gpu_hours": 1.3586111111111112,
+  "gpu_hours": 1.606111111111111,
   "selected": [
     {
       "elapsed_seconds": 0.0,
@@ -435,8 +485,13 @@
       "elapsed_seconds": 25041.855110645294,
       "gpu_hours": 1.3586111111111112,
       "tokens_s": 112817.37598359259
+    },
+    {
+      "elapsed_seconds": 30942.016743659973,
+      "gpu_hours": 1.5405555555555555,
+      "tokens_s": 114699.65233428899
     }
   ],
   "status": "Supervised campaign; only qualified matched-control promotions change the incumbent.",
-  "updated_at": "2026-09-13T09:38:16+00:00"
+  "updated_at": "2026-09-13T11:37:22+00:00"
 }
