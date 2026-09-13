@@ -36,7 +36,8 @@
     const axis = byId("axis").value;
     const raw = data.attempts.filter(a => a.tokens_s != null);
     const all = [...data.selected, ...raw];
-    const xmax = Math.max(axis === "elapsed_seconds" ? 3600 : 1, ...all.map(p => p[axis] || 0));
+    const observedEnd = Math.max(data[axis] || 0, ...all.map(p => p[axis] || 0));
+    const xmax = Math.max(axis === "elapsed_seconds" ? 3600 : 1, observedEnd);
     const ymin = 0, ymax = Math.max(...all.map(p => p.tokens_s)) * 1.1;
     const x = value => 85 + value / xmax * 920;
     const y = value => 305 - (value - ymin) / (ymax - ymin) * 270;
@@ -49,8 +50,8 @@
     }
     let path = "";
     for (const [i,p] of data.selected.entries()) path += i === 0 ? `M ${x(p[axis])} ${y(p.tokens_s)}` : ` H ${x(p[axis])} V ${y(p.tokens_s)}`;
-    // Stop at observed evidence, not the unused future portion of the axis.
-    path += ` H ${x(Math.max(...all.map(p => p[axis] || 0)))}`;
+    // Show the incumbent plateau through the observed window, without adding a promotion.
+    path += ` H ${x(observedEnd)}`;
     svg.appendChild(element("path", {d:path,fill:"none",stroke:"#007c7a","stroke-width":3}));
     for (const p of raw) {
       const circle = element("circle", {cx:x(p[axis]||0),cy:y(p.tokens_s),r:4,fill:p.outcome === "promoted"?"#007c7a":"#a7b5c0",opacity:.75});

@@ -24,6 +24,7 @@
   "baseline_note": "Dense refers to the frozen calibrated graph-enabled backend, not an equally optimized deployment baseline. General kernel improvements can also accelerate dense inference; use separate matched dense-transfer diagnostics for that comparison. This curve and its GPU-hour axis cover campaign-managed jobs only; standalone screening, profiling and deployment-comparison costs are recorded separately.",
   "campaign": "Llama G8 four grouped exits FP16",
   "contract": "Llama G8 \u00b7 4 execution exits \u00b7 FP16 weights/activations/KV \u00b7 synthetic u\u00b2 policy \u00b7 stagewise FP32 logits and Top1 \u00b7 B2048/P64/burn896/window32 \u00b7 H200",
+  "elapsed_seconds": 10800.0,
   "gpu_hours": 0.21166666666666667,
   "selected": [
     {
@@ -42,6 +43,6 @@
       "tokens_s": 150077.23122230376
     }
   ],
-  "status": "Supervised campaign; only qualified matched-control promotions change the incumbent.",
-  "updated_at": "2026-09-13T19:15:27+00:00"
+  "status": "Campaign window ended; only completed, qualified matched-control promotions are retained.",
+  "updated_at": "2026-09-13T20:14:52+00:00"
 }
