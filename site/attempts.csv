@@ -1,19 +1,22 @@
 id,summary,stage,outcome,tokens_s,gpu_seconds,gpu_hours,elapsed_seconds
-0c6baf5ffa3eddbb,attention backend candidate,screen_running,screen_running,,0.0,0.0,2550.9827818870544
+0c6baf5ffa3eddbb,attention backend candidate,stale_rebase_required,stale_rebase_required,,14.0,0.41083333333333333,2975.9284908771515
 174388bed2a7f2e1,attention backend candidate,slow_rejected,slow_rejected,,21.0,0.02638888888888889,1305.978765964508
 1cc7eb4e4ca9f8b8,integration backend candidate,validated,validated,,108.0,0.20722222222222222,2056.3857958316803
-255e6b22f8358d26,attention backend candidate,screen_running,screen_running,,0.0,0.0,2878.1173017024994
+255e6b22f8358d26,attention backend candidate,confirmation_running,confirmation_running,,92.0,0.4672222222222222,3081.4476602077484
 2ad3bf08917914b0,attention backend candidate,validated,validated,,85.0,0.14333333333333334,2056.297158241272
 2d0f1c5a4e0787d0,projection backend candidate,validated,validated,,91.0,0.12277777777777778,2056.267156600952
-3b22908864793c78,integration backend candidate,screen_running,screen_running,,0.0,0.0,2879.3619351387024
+3b22908864793c78,integration backend candidate,validated,validated,,112.0,0.4891666666666667,3212.809898853302
+3ba75a667f4c9c79,integration backend candidate,validated,validated,,97.0,0.5308333333333334,4731.475703716278
 6e805ded1517d321,attention backend candidate,validated,validated,,95.0,0.165,2056.3265855312347
 754193be898891cf,attention backend candidate,promoted,promoted,27991.16702021614,570.0,0.40305555555555556,2852.0093429088593
 77dd9ddc60fab33e,integration backend candidate,validated,validated,,103.0,0.27305555555555555,2419.4754452705383
 899c2cfb45ce3a54,integration backend candidate,validated,validated,,104.0,0.24388888888888888,2338.997440814972
+932e3165ab3390f7,integration backend candidate,validated,validated,,96.0,0.5527777777777778,4834.102841377258
 ac7ede9ee19f6116,attention backend candidate,slow_rejected,slow_rejected,,21.0,0.02638888888888889,1305.9789638519287
-bb2988ad206c3719,attention backend candidate,screen_running,screen_running,,0.0,0.0,2549.7488844394684
+bb2988ad206c3719,attention backend candidate,stale_rebase_required,stale_rebase_required,,14.0,0.41083333333333333,2975.9290828704834
 c9506b0738129f12,attention backend candidate,validated,validated,,99.0,0.06972222222222223,1636.076182603836
 ce6b838b2e332d71,attention backend candidate,validated,validated,,86.0,0.18583333333333332,2056.3563714027405
-d887da8ad272b82c,integration backend candidate,validate_running,validate_running,,30.0,0.25222222222222224,2419.4358761310577
+d887da8ad272b82c,integration backend candidate,stale_rebase_required,stale_rebase_required,,108.0,0.4325,2975.967748403549
+dcda806ab58e4f28,integration backend candidate,validated,validated,,120.0,0.5761111111111111,4911.645922660828
 e0d0ec6b8747ebf0,attention backend candidate,slow_rejected,slow_rejected,,27.0,0.03388888888888889,1306.001586675644
 ffc9bef34ae5daa3,normalization backend candidate,inconclusive_or_no_gain,inconclusive_or_no_gain,,11.0,0.0030555555555555557,1305.9568557739258
