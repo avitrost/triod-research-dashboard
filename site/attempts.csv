@@ -1,1 +1,7 @@
 id,summary,stage,outcome,tokens_s,gpu_seconds,gpu_hours,elapsed_seconds
+174388bed2a7f2e1,attention backend candidate,screen_running,screen_running,,0.0,0.0,30.70097303390503
+754193be898891cf,attention backend candidate,screen_running,screen_running,,0.0,0.0,30.44258975982666
+ac7ede9ee19f6116,attention backend candidate,screen_running,screen_running,,0.0,0.0,30.6163592338562
+c9506b0738129f12,attention backend candidate,screen_running,screen_running,,0.0,0.0,30.34811282157898
+e0d0ec6b8747ebf0,attention backend candidate,screen_running,screen_running,,0.0,0.0,30.528356313705444
+ffc9bef34ae5daa3,normalization backend candidate,screen_running,screen_running,,0.0,0.0,103.27121067047119

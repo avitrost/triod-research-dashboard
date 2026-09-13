@@ -1,5 +1,66 @@
 {
-  "attempts": [],
+  "attempts": [
+    {
+      "elapsed_seconds": 30.70097303390503,
+      "gpu_hours": 0.0,
+      "gpu_seconds": 0.0,
+      "id": "174388bed2a7f2e1",
+      "outcome": "screen_running",
+      "stage": "screen_running",
+      "summary": "attention backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 30.44258975982666,
+      "gpu_hours": 0.0,
+      "gpu_seconds": 0.0,
+      "id": "754193be898891cf",
+      "outcome": "screen_running",
+      "stage": "screen_running",
+      "summary": "attention backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 30.6163592338562,
+      "gpu_hours": 0.0,
+      "gpu_seconds": 0.0,
+      "id": "ac7ede9ee19f6116",
+      "outcome": "screen_running",
+      "stage": "screen_running",
+      "summary": "attention backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 30.34811282157898,
+      "gpu_hours": 0.0,
+      "gpu_seconds": 0.0,
+      "id": "c9506b0738129f12",
+      "outcome": "screen_running",
+      "stage": "screen_running",
+      "summary": "attention backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 30.528356313705444,
+      "gpu_hours": 0.0,
+      "gpu_seconds": 0.0,
+      "id": "e0d0ec6b8747ebf0",
+      "outcome": "screen_running",
+      "stage": "screen_running",
+      "summary": "attention backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 103.27121067047119,
+      "gpu_hours": 0.0,
+      "gpu_seconds": 0.0,
+      "id": "ffc9bef34ae5daa3",
+      "outcome": "screen_running",
+      "stage": "screen_running",
+      "summary": "normalization backend candidate",
+      "tokens_s": null
+    }
+  ],
   "baseline_note": "Dense is the calibrated graph-enabled backend, not old GPT-2 or eager timing.",
   "campaign": "Llama G8 FP16 synthetic",
   "contract": "Llama G8 \u00b7 FP16 weights/activations/KV \u00b7 synthetic u\u00b2 policy \u00b7 stagewise FP32 logits and Top1 \u00b7 B2048/P64/burn896/window32 \u00b7 H200",
@@ -11,6 +72,6 @@
       "tokens_s": 26502.986358118334
     }
   ],
-  "status": "Qualified seed; optimization campaign not started.",
-  "updated_at": "2026-09-12T22:59:55+00:00"
+  "status": "Supervised campaign; only qualified matched-control promotions change the incumbent.",
+  "updated_at": "2026-09-13T02:02:32+00:00"
 }
