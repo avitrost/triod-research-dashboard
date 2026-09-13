@@ -10,7 +10,10 @@ id,summary,stage,outcome,tokens_s,gpu_seconds,gpu_hours,elapsed_seconds
 3b22908864793c78,integration backend candidate,validated,validated,,112.0,0.4891666666666667,3212.809898853302
 3ba75a667f4c9c79,integration backend candidate,validated,validated,,97.0,0.5308333333333334,4731.475703716278
 435130d51e2033df,integration backend candidate,validated,validated,,93.33333333333333,0.6413888888888889,6138.821926832199
+466f8f7827dfa536,integration backend candidate,validated,validated,,97.0,0.8361111111111111,14038.828360319138
 4ce64fbdd2a52c5f,integration backend candidate,validated,validated,,110.0,0.6633333333333333,6138.890938282013
+4fe92d82cb061907,integration backend candidate,validated,validated,,116.0,0.9311111111111111,14420.789685487747
+530d2f96bb83f4c3,integration backend candidate,validated,validated,,96.0,0.8683333333333333,14111.578055620193
 584b0acdadab49d4,integration backend candidate,confirmation_running,confirmation_running,,114.0,0.7594444444444445,8226.484943389893
 6e805ded1517d321,attention backend candidate,validated,validated,,95.0,0.165,2056.3265855312347
 754193be898891cf,attention backend candidate,promoted,promoted,27991.16702021614,570.0,0.40305555555555556,2852.0093429088593
@@ -23,8 +26,10 @@ adc8f7778d7cb62f,integration backend candidate,validated,validated,,113.0,0.7908
 bb2988ad206c3719,attention backend candidate,stale_rebase_required,stale_rebase_required,,14.0,0.41083333333333333,2975.9290828704834
 c9506b0738129f12,attention backend candidate,validated,validated,,99.0,0.06972222222222223,1636.076182603836
 cb29ae5a29697395,integration backend candidate,inconclusive_or_no_gain,inconclusive_or_no_gain,,37.0,0.7277777777777777,7004.599832057953
+cd4ea040790a710b,integration backend candidate,validated,validated,,98.0,0.9105555555555556,14420.62943482399
 ce6b838b2e332d71,attention backend candidate,validated,validated,,86.0,0.18583333333333332,2056.3563714027405
 d887da8ad272b82c,integration backend candidate,stale_rebase_required,stale_rebase_required,,108.0,0.4325,2975.967748403549
 dcda806ab58e4f28,integration backend candidate,validated,validated,,120.0,0.5761111111111111,4911.645922660828
 e0d0ec6b8747ebf0,attention backend candidate,slow_rejected,slow_rejected,,27.0,0.03388888888888889,1306.001586675644
+eaa3539f497cdd95,integration backend candidate,validated,validated,,98.0,0.8894444444444445,14420.37701177597
 ffc9bef34ae5daa3,normalization backend candidate,inconclusive_or_no_gain,inconclusive_or_no_gain,,11.0,0.0030555555555555557,1305.9568557739258
