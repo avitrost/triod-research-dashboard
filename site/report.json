@@ -1,6 +1,16 @@
 {
   "attempts": [
     {
+      "elapsed_seconds": 2550.9827818870544,
+      "gpu_hours": 0.0,
+      "gpu_seconds": 0.0,
+      "id": "0c6baf5ffa3eddbb",
+      "outcome": "screen_running",
+      "stage": "screen_running",
+      "summary": "attention backend candidate",
+      "tokens_s": null
+    },
+    {
       "elapsed_seconds": 1305.978765964508,
       "gpu_hours": 0.02638888888888889,
       "gpu_seconds": 21.0,
@@ -18,6 +28,16 @@
       "outcome": "validated",
       "stage": "validated",
       "summary": "integration backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 2878.1173017024994,
+      "gpu_hours": 0.0,
+      "gpu_seconds": 0.0,
+      "id": "255e6b22f8358d26",
+      "outcome": "screen_running",
+      "stage": "screen_running",
+      "summary": "attention backend candidate",
       "tokens_s": null
     },
     {
@@ -41,6 +61,16 @@
       "tokens_s": null
     },
     {
+      "elapsed_seconds": 2879.3619351387024,
+      "gpu_hours": 0.0,
+      "gpu_seconds": 0.0,
+      "id": "3b22908864793c78",
+      "outcome": "screen_running",
+      "stage": "screen_running",
+      "summary": "integration backend candidate",
+      "tokens_s": null
+    },
+    {
       "elapsed_seconds": 2056.3265855312347,
       "gpu_hours": 0.165,
       "gpu_seconds": 95.0,
@@ -51,22 +81,22 @@
       "tokens_s": null
     },
     {
-      "elapsed_seconds": 1636.1322567462921,
-      "gpu_hours": 0.10083333333333333,
-      "gpu_seconds": 102.0,
+      "elapsed_seconds": 2852.0093429088593,
+      "gpu_hours": 0.40305555555555556,
+      "gpu_seconds": 570.0,
       "id": "754193be898891cf",
-      "outcome": "confirmation_running",
-      "stage": "confirmation_running",
+      "outcome": "promoted",
+      "stage": "promoted",
       "summary": "attention backend candidate",
-      "tokens_s": null
+      "tokens_s": 27991.16702021614
     },
     {
-      "elapsed_seconds": 2283.919622182846,
-      "gpu_hours": 0.22277777777777777,
-      "gpu_seconds": 28.0,
+      "elapsed_seconds": 2419.4754452705383,
+      "gpu_hours": 0.27305555555555555,
+      "gpu_seconds": 103.0,
       "id": "77dd9ddc60fab33e",
-      "outcome": "validate_running",
-      "stage": "validate_running",
+      "outcome": "validated",
+      "stage": "validated",
       "summary": "integration backend candidate",
       "tokens_s": null
     },
@@ -91,6 +121,16 @@
       "tokens_s": null
     },
     {
+      "elapsed_seconds": 2549.7488844394684,
+      "gpu_hours": 0.0,
+      "gpu_seconds": 0.0,
+      "id": "bb2988ad206c3719",
+      "outcome": "screen_running",
+      "stage": "screen_running",
+      "summary": "attention backend candidate",
+      "tokens_s": null
+    },
+    {
       "elapsed_seconds": 1636.076182603836,
       "gpu_hours": 0.06972222222222223,
       "gpu_seconds": 99.0,
@@ -111,12 +151,12 @@
       "tokens_s": null
     },
     {
-      "elapsed_seconds": 2337.767214536667,
-      "gpu_hours": 0.0,
-      "gpu_seconds": 0.0,
+      "elapsed_seconds": 2419.4358761310577,
+      "gpu_hours": 0.25222222222222224,
+      "gpu_seconds": 30.0,
       "id": "d887da8ad272b82c",
-      "outcome": "screen_running",
-      "stage": "screen_running",
+      "outcome": "validate_running",
+      "stage": "validate_running",
       "summary": "integration backend candidate",
       "tokens_s": null
     },
@@ -144,14 +184,19 @@
   "baseline_note": "Dense is the calibrated graph-enabled backend, not old GPT-2 or eager timing.",
   "campaign": "Llama G8 FP16 synthetic",
   "contract": "Llama G8 \u00b7 FP16 weights/activations/KV \u00b7 synthetic u\u00b2 policy \u00b7 stagewise FP32 logits and Top1 \u00b7 B2048/P64/burn896/window32 \u00b7 H200",
-  "gpu_hours": 0.24388888888888888,
+  "gpu_hours": 0.40305555555555556,
   "selected": [
     {
       "elapsed_seconds": 0.0,
       "gpu_hours": 0.0,
       "tokens_s": 26502.986358118334
+    },
+    {
+      "elapsed_seconds": 2852.028347969055,
+      "gpu_hours": 0.40305555555555556,
+      "tokens_s": 27991.16702021614
     }
   ],
   "status": "Supervised campaign; only qualified matched-control promotions change the incumbent.",
-  "updated_at": "2026-09-13T02:39:49+00:00"
+  "updated_at": "2026-09-13T02:49:06+00:00"
 }
