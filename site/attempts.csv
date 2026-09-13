@@ -7,6 +7,7 @@ id,summary,stage,outcome,tokens_s,gpu_seconds,gpu_hours,elapsed_seconds
 2d0f1c5a4e0787d0,projection backend candidate,validated,validated,,91.0,0.12277777777777778,2056.267156600952
 3b22908864793c78,integration backend candidate,validated,validated,,112.0,0.4891666666666667,3212.809898853302
 3ba75a667f4c9c79,integration backend candidate,validated,validated,,97.0,0.5308333333333334,4731.475703716278
+4ce64fbdd2a52c5f,integration backend candidate,screen_running,screen_running,,0.0,0.0,5013.853630304337
 6e805ded1517d321,attention backend candidate,validated,validated,,95.0,0.165,2056.3265855312347
 754193be898891cf,attention backend candidate,promoted,promoted,27991.16702021614,570.0,0.40305555555555556,2852.0093429088593
 77dd9ddc60fab33e,integration backend candidate,validated,validated,,103.0,0.27305555555555555,2419.4754452705383

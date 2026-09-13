@@ -81,6 +81,16 @@
       "tokens_s": null
     },
     {
+      "elapsed_seconds": 5013.853630304337,
+      "gpu_hours": 0.0,
+      "gpu_seconds": 0.0,
+      "id": "4ce64fbdd2a52c5f",
+      "outcome": "screen_running",
+      "stage": "screen_running",
+      "summary": "integration backend candidate",
+      "tokens_s": null
+    },
+    {
       "elapsed_seconds": 2056.3265855312347,
       "gpu_hours": 0.165,
       "gpu_seconds": 95.0,
@@ -211,7 +221,7 @@
       "tokens_s": null
     }
   ],
-  "baseline_note": "Dense is the calibrated graph-enabled backend, not old GPT-2 or eager timing.",
+  "baseline_note": "Dense refers to the frozen calibrated graph-enabled backend, not an equally optimized deployment baseline. General kernel improvements can also accelerate dense inference; use separate matched dense-transfer diagnostics for that comparison.",
   "campaign": "Llama G8 FP16 synthetic",
   "contract": "Llama G8 \u00b7 FP16 weights/activations/KV \u00b7 synthetic u\u00b2 policy \u00b7 stagewise FP32 logits and Top1 \u00b7 B2048/P64/burn896/window32 \u00b7 H200",
   "gpu_hours": 0.5761111111111111,
@@ -228,5 +238,5 @@
     }
   ],
   "status": "Supervised campaign; only qualified matched-control promotions change the incumbent.",
-  "updated_at": "2026-09-13T03:22:56+00:00"
+  "updated_at": "2026-09-13T03:29:33+00:00"
 }
