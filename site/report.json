@@ -11,12 +11,22 @@
       "tokens_s": null
     },
     {
-      "elapsed_seconds": 4664.269964694977,
-      "gpu_hours": 0.0,
-      "gpu_seconds": 0.0,
+      "elapsed_seconds": 6428.295917034149,
+      "gpu_hours": 0.07111111111111111,
+      "gpu_seconds": 110.0,
+      "id": "26ce653c1a812fac",
+      "outcome": "confirmation_running",
+      "stage": "confirmation_running",
+      "summary": "integration backend candidate",
+      "tokens_s": null
+    },
+    {
+      "elapsed_seconds": 5178.371107816696,
+      "gpu_hours": 0.04055555555555555,
+      "gpu_seconds": 42.0,
       "id": "65d450afa9e38c98",
-      "outcome": "screen_running",
-      "stage": "screen_running",
+      "outcome": "inconclusive_or_no_gain",
+      "stage": "inconclusive_or_no_gain",
       "summary": "integration backend candidate",
       "tokens_s": null
     }
@@ -24,8 +34,8 @@
   "baseline_note": "Dense refers to the frozen calibrated graph-enabled backend, not an equally optimized deployment baseline. General kernel improvements can also accelerate dense inference; use separate matched dense-transfer diagnostics for that comparison. This curve and its GPU-hour axis cover campaign-managed jobs only; standalone screening, profiling and deployment-comparison costs are recorded separately.",
   "campaign": "Four grouped exits: four-hour continuation",
   "contract": "Llama G8 \u00b7 4 execution exits \u00b7 FP16 weights/activations/KV \u00b7 synthetic u\u00b2 policy \u00b7 stagewise FP32 logits and Top1 \u00b7 B2048/P64/burn896/window32 \u00b7 H200",
-  "elapsed_seconds": 4737.529386043549,
-  "gpu_hours": 0.028888888888888888,
+  "elapsed_seconds": 9210.04396390915,
+  "gpu_hours": 0.07111111111111111,
   "selected": [
     {
       "elapsed_seconds": 0.0,
@@ -33,6 +43,6 @@
       "tokens_s": 147374.03748541494
     }
   ],
-  "status": "Supervised campaign; only qualified matched-control promotions change the incumbent.",
-  "updated_at": "2026-09-14T01:31:46+00:00"
+  "status": "Supervised campaign; only qualified matched-control promotions change the incumbent. Independent full confirmation: +6.7% versus matched prior code; 2.064x matched optimized dense. These auxiliary results are not selected-curve points; designated-device promotion is queued.",
+  "updated_at": "2026-09-14T02:46:19+00:00"
 }

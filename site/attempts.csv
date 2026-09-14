@@ -1,3 +1,4 @@
 id,summary,stage,outcome,tokens_s,gpu_seconds,gpu_hours,elapsed_seconds
 260e32ba9b4f10fe,integration backend candidate,research_withdrawn,research_withdrawn,,104.0,0.028888888888888888,4664.208277225494
-65d450afa9e38c98,integration backend candidate,screen_running,screen_running,,0.0,0.0,4664.269964694977
+26ce653c1a812fac,integration backend candidate,confirmation_running,confirmation_running,,110.0,0.07111111111111111,6428.295917034149
+65d450afa9e38c98,integration backend candidate,inconclusive_or_no_gain,inconclusive_or_no_gain,,42.0,0.04055555555555555,5178.371107816696
