@@ -1,3 +1,1 @@
 id,summary,stage,outcome,tokens_s,gpu_seconds,gpu_hours,elapsed_seconds
-5a62b1c91cc54cd5,integration backend candidate,promoted,promoted,145961.73962865127,385.0,0.10694444444444444,3982.874566555023
-d00fd44ec0232550,integration backend candidate,promoted,promoted,150077.23122230376,377.0,0.21166666666666667,5124.425677776337
